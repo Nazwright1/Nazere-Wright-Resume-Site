@@ -7,7 +7,6 @@
 
 
 
-
 ?>
 
 <!DOCTYPE html>
@@ -15,7 +14,7 @@
 <head>
 
 	<!-- include the css file -->
-	<link rel="stylesheet" type="text/css" href="/Users/midorismith/Sites/wordpress/resumesite/resumesites/wp-content/themes/Nazere-Wright-Resume-Site/css/frontpage.css">
+
 	
 	<title>My Resume Dashboard</title>
 
@@ -24,8 +23,8 @@
 
 <body>
 
-	<div>
-		<ul class="resMenu">
+	<div class="resMenu">
+		<ul>
 			<li>
 				<a href="">Work Experience</a>
 			</li>
