@@ -17,9 +17,25 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- include the css file -->
 	<link rel="stylesheet" type="text/css" href="/Users/midorismith/Sites/wordpress/resumesite/resumesites/wp-content/themes/Nazere-Wright-Resume-Site/css/frontpage.css">
-	<!--bootstrap 3 CDN --> 
+	<!--bootstrap 3 framework CDN --> 
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	
+	
+	<!--fontawesome css framework cdn -->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!--W3.css css framework-->
+
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	<!-- fontawesome 4 icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<!--fontawesome 4 --> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 	<title>My Resume Dashboard</title>
 	<style type="text/css">
 		
@@ -27,9 +43,15 @@ ul.resMenu{
 
 color: blue; 
 
+font-style:italic;
+font-variant: small-caps;
+font-size: large;
 /* centered the list both horizontally and vertically */
 padding: 70px 0; 
 	text-align: center;
+width: 250px;
+
+
 }
 
 a{
@@ -48,6 +70,7 @@ margin:7em 0;
 
  }
 
+
 	</style>
 
 
@@ -60,19 +83,24 @@ margin:7em 0;
 	
 		<ul class="resMenu" id="demo">
 			<li>
-				<a href="" class="list-group-item">Work Experience <span class="badge">3</span></a>
+				<i class="fa fa-suitcase"></i>
+				<a href="" class="list-group-item btn btn-success">
+
+						
+					Work Experience <span class="badge">3</span>
+				</a>
 			</li>
 			<li>
-				<a href="" class="list-group-item">Skills</a>
+				<a href="" class="list-group-item btn btn-info" id='second'>Skills<span class="badge">3</span></a>
 			</li>
 			<li>
-				<a href="" class="list-group-item" >Education</a>
+				<a href="" class="list-group-item btn btn-warning" >Education<span class="badge">3</span></a>
 			</li>
 			<li>
-				<a href="" class="list-group-item">Projects</a>
+				<a href="" class="list-group-item btn btn-danger">Projects<span class="badge">3</span></a>
 			</li>
 			<li>
-				<a href="" class="list-group-item">Certifications </a>
+				<a href="" class="list-group-item btn btn-primary">Certifications<span class="badge">3</span> </a>
 			</li>
 
 		</ul>
