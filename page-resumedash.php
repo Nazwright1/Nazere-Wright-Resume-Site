@@ -13,9 +13,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+	<!-- sets the width to the page to follow the screen width of any device-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- include the css file -->
 	<link rel="stylesheet" type="text/css" href="/Users/midorismith/Sites/wordpress/resumesite/resumesites/wp-content/themes/Nazere-Wright-Resume-Site/css/frontpage.css">
+	<!--bootstrap 3 CDN --> 
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	
 	<title>My Resume Dashboard</title>
 	<style type="text/css">
@@ -51,25 +54,25 @@ margin:7em 0;
 </head>
 
 <body>
-<div class="page-container">
+<div class="container">
 <div>
 
 	
 		<ul class="resMenu" id="demo">
 			<li>
-				<a href="">Work Experience</a>
+				<a href="" class="list-group-item">Work Experience <span class="badge">3</span></a>
 			</li>
 			<li>
-				<a href="">Skills</a>
+				<a href="" class="list-group-item">Skills</a>
 			</li>
 			<li>
-				<a href="">Education</a>
+				<a href="" class="list-group-item" >Education</a>
 			</li>
 			<li>
-				<a href="">Projects</a>
+				<a href="" class="list-group-item">Projects</a>
 			</li>
 			<li>
-				<a href="">Certifications</a>
+				<a href="" class="list-group-item">Certifications </a>
 			</li>
 
 		</ul>
@@ -78,10 +81,14 @@ margin:7em 0;
 
 
 <div></div>
+<!--implementing jQuery from google CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <script type="text/javascript">
 	
-	document.getElementById('demo').innerHTML = "Testing if this javascript statement was executed correctly"; 
+	//document.getElementById('demo').innerHTML = "Testing if this javascript statement was executed correctly"; 
+
+//get the id of the tag by this method:
 
 
 </script>
