@@ -24,6 +24,9 @@ ul.resMenu{
 
 color: blue; 
 
+/* centered the list both horizontally and vertically */
+padding: 70px 0; 
+	text-align: center;
 }
 
 a{
@@ -35,7 +38,12 @@ div{
 	width: 50%;
 	display: block;
 }
+li{ 
+/*	adding margin between each list item */
 
+margin:7em 0;
+
+ }
 
 	</style>
 
@@ -47,7 +55,7 @@ div{
 <div>
 
 	
-		<ul class="resMenu" >
+		<ul class="resMenu" id="demo">
 			<li>
 				<a href="">Work Experience</a>
 			</li>
@@ -69,7 +77,13 @@ div{
 
 
 
-</div>
+<div></div>
 
+<script type="text/javascript">
+	
+	document.getElementById('demo').innerHTML = "Testing if this javascript statement was executed correctly"; 
+
+
+</script>
 </body>
 </html>
