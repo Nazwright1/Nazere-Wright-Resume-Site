@@ -18,14 +18,36 @@
 	<link rel="stylesheet" type="text/css" href="/Users/midorismith/Sites/wordpress/resumesite/resumesites/wp-content/themes/Nazere-Wright-Resume-Site/css/frontpage.css">
 	
 	<title>My Resume Dashboard</title>
+	<style type="text/css">
+		
+ul.resMenu{		
+
+color: blue; 
+
+}
+
+a{
+	color: black; 
+}
+
+div{
+	margin: auto;
+	width: 50%;
+	display: block;
+}
+
+
+	</style>
 
 
 </head>
 
 <body>
+<div class="page-container">
+<div>
 
-	<div>
-		<ul class="resMenu">
+	
+		<ul class="resMenu" >
 			<li>
 				<a href="">Work Experience</a>
 			</li>
@@ -43,8 +65,11 @@
 			</li>
 
 		</ul>
-		
-	</div>
+		</div>
+
+
+
+</div>
 
 </body>
 </html>
