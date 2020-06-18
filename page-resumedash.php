@@ -13,6 +13,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!--webpage must have so that the client can display html properly.-->
+	<meta charset="UTF-8">
 	<!-- sets the width to the page to follow the screen width of any device-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- include the css file -->
@@ -47,10 +49,8 @@ font-style:italic;
 font-variant: small-caps;
 font-size: large;
 /* centered the list both horizontally and vertically */
-padding: 70px 0; 
-	text-align: center;
-width: 250px;
-
+margin: 0 auto;
+list-style-position: outside;
 
 }
 
@@ -68,7 +68,10 @@ li{
 
 margin:7em 0;
 
+
  }
+
+
 
 
 	</style>
